@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #333;
+    --secondary-color: #444;
+    ---alt-color: #af3231;
+    --overlay: rgba(0,0,0,0.8);
+    --container-width: 90vw;
+}
+
+body{
+    font-family: 'catamaran', sans-serif;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.nav{
+    background: none;
+    box-shadow: none;
+}
+
+.container{
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    width: var(--container-width);
+}
+
+.container .brand{
+    color: var(---alt-color);
+    font-weight: lighter;
+}
+
+.menu a{
+    color: var(--primary-color);
+}
