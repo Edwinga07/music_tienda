@@ -45,3 +45,28 @@ body{
     background-color: var(---alt-color);
     color: #fff;
 }
+
+.main-info .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    width: var(--container-width);
+    align-items: center;
+}
+
+.absolute-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.absolute-title h3{
+    font-size: 10em;
+    font-weight: bold;
+    position: absolute;
+    color: rgba(0,0,0,0.1)
+}
+
+.main-info img{
+    max-width: 100%;
+}
