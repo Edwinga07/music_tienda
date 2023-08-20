@@ -70,3 +70,77 @@ body{
 .main-info img{
     max-width: 100%;
 }
+
+h1{
+    font-weight: bold; /*texto en negrita*/
+}
+
+.main-info span{
+    color: var(---alt-color);
+    font-weight: bold;
+}
+
+.main-info p{
+    margin-bottom: 1em;
+}
+
+.btn-info{
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 20px; /*bordes del boton*/
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer; /*para que aparezca una manito, cuando se pase el puntero del mouse por encima del boton*/
+}
+
+.btn-info:hover{
+    background-color: var(---alt-color); /*darle color alterno al boton al pasar el puntero del mouse por encima*/
+}
+
+.overlay-section{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay{
+    height: 67vh;
+    background-color: var(--overlay);
+}
+
+.overlay .container{
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.overlay .container h3{
+    font-weight: lighter;
+}
+
+.overlay .container h2{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.overlay .container p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.products{
+    height: 80vh;
+    width: 100vw;
+}
+
+.product-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+    padding-top: 2em;
+}
