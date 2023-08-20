@@ -144,3 +144,31 @@ h1{
     margin-bottom: 1em;
     padding-top: 2em;
 }
+
+/*Rayita que va debajo de Our Products*/
+.divider{ 
+    width: 200px;
+    height: 5px;
+    background-color: var(---alt-color);
+    margin: 0 auto;
+}
+
+.carousel{
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.carousel .carousel-item{
+    width: 500px;
+}
+
+
+.carousel .carousel-item img{
+    width: 700px;
+    height: 500 px;
+    margin-top: -12em;  /*Subir imagenes desde la parte inferior*/
+}
+
+.carousel .carousel-item h5{
+    text-align: center;
+}
