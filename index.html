@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -69,17 +70,40 @@
             <div class="divider"></div>
         </section>
         <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="./img/7.png"><h5>Sonor</h5></a>
-            <a class="carousel-item" href="#two!"><img src="./img/bateria1.png"><h5>Roland</h5></a>
-            <a class="carousel-item" href="#three!"><img src="./img/bateria3.png"><h5>Ludwing</h5></a>
-            <a class="carousel-item" href="#four!"><img src="./img/bateria4.png"><h5>SJC</h5></a>
-            <a class="carousel-item" href="#five!"><img src="./img/bateria6.png"><h5>Pearl</h5></a>
+            <a class="carousel-item" href="#one!" alt="Sonor Drum set"><img src="./img/7.png"><h5>Sonor</h5></a>
+            <a class="carousel-item" href="#two!"><img src="./img/bateria1.png" alt="Roland drum set"><h5>Roland</h5></a>
+            <a class="carousel-item" href="#three!"><img src="./img/bateria3.png" alt="Roland drum set"><h5>Ludwing</h5></a>
+            <a class="carousel-item" href="#four!"><img src="./img/bateria4.png" alt="Sjc"><h5>SJC</h5></a>
+            <a class="carousel-item" href="#five!"><img src="./img/bateria6.png" alt="Lummier"><h5>Pearl</h5></a>
           </div>
     </article>
 
+    <svg xmlns="http://www.w3.org/2000/svg" class="skew" viewBox="0 0 1440 320">
+        <path fill="#000" fill-opacity="1" d="M0,128L1440,320L1440,320L0,320Z"></path>
+      </svg>
 
+      <div class="our-drummers">
+        <h2>Our Drummers</h2>
+        <div class="divider"></div>
+
+        <div class="drummmers">
+            <div class="gallery">
+                <a href="img/drummers/vinnie.jpeg"><img src="img/drummers/vinnie.jpeg" alt="Vinnie Colaiuta playing drums" /></a>
+                <a href="img/drummers/portnoy.jpg"><img src="img/drummers/portnoy.jpg" alt="Mike Portnoy in action" /></a>
+                <a href="img/drummers/tomas'.jpg"><img src="img/drummers/tomas'.jpg" alt="Tomas Lang" /></a>
+                <a href="img/drummers/dave.jpg"><img src="img/drummers/dave.jpg" alt="Mike Portnoy in action" /></a>
+                <a href="img/drummers/Mana-Alex-Gonzalez.jpg"><img src="img/drummers/Mana-Alex-Gonzalez.jpg" alt="Alex Gonzalez Rocking" /></a>
+                <a href="img/drummers/eric.jpeg"><img src="img/drummers/eric.jpeg" alt="Erick Moore" /></a>
+            </div>
+        </div>
+      </div>
+
+    <script src="js/simple-lightbox.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+    </script>
 </body>
 
 </html>
