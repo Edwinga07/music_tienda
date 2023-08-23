@@ -11,12 +11,17 @@
     ---alt-color: #af3231;
     --overlay: rgba(0,0,0,0.8);
     --container-width: 90vw;
+    --amarillo: #ffd700;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: 'catamaran', sans-serif;
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 18px;
 }
 
 .nav{
@@ -232,8 +237,6 @@ h1{
 
 .footer h2{
     text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 .footer{
@@ -245,4 +248,32 @@ h1{
 .footer .container{
     display: flex;
     justify-content: space-between; /*Colocar elementos en el centro*/
+}
+
+.social-media .fab{
+    margin-right: 20px; /*para que se alejen un poco los iconos de las redes sociales*/
+    font-size: 2em; /*para aumentar de tamaño los iconos de las redes*/
+    color: var(---alt-color)
+}
+
+.social-media .fab:hover{
+    color: var(--amarillo);/*al colocar el puntero del mouse sobre el boton se coloca de color amarillo*/
+}
+
+.info a, .blog a{
+    color: var(---alt-color);
+}
+
+.info a:hover, .blog a:hover{
+    color: var(--amarillo);
+}
+
+@media screen and (max-width: 1020px){
+    h1{
+        font-size: 3rem;
+    }
+
+    .absolute-title h3{
+        font-size: 6rem;
+    }
 }

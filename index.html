@@ -13,21 +13,24 @@
 </head>
 
 <body>
-
-    <nav class="nav">
-        <div class="nav-wrapper">
-            <div class="container">
-                <a href="#!" class="brand-logo brand">Tienda</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Drummers</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
+    <header id="home">
+        <nav class="nav">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#!" class="brand-logo brand">Tienda</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Galeria</a></li>
+                        <li><a href="#drummers">Drummers</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
+  
 
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#">Home</a></li>
@@ -64,8 +67,8 @@
         </div>
     </article>
 
-    <article class="products" id="products">
-        <section class="product-title">
+    <article class="products">
+        <section class="product-title" id="products">
             <h2>Our Products</h2>
             <div class="divider"></div>
         </section>
@@ -82,7 +85,7 @@
         <path fill="#000" fill-opacity="1" d="M0,128L1440,320L1440,320L0,320Z"></path>
       </svg>
 
-      <div class="our-drummers">
+      <div class="our-drummers" id="drummers">
         <h2>Our Drummers</h2>
         <div class="divider"></div>
 
@@ -98,7 +101,7 @@
         </div>
       </div>
 
-        <div class="contact">
+        <div class="contact" id="contact">
             <form class="container-form">
                 <h2>Keep in Touch</h2>
                 <input type="text" placeholder="Name">
@@ -120,10 +123,10 @@
             <div class="info">
                 <h3>Company info</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Drummers</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Galeria</a></li>
+                    <li><a href="#drummers">Drummers</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
             <div class="blog">
