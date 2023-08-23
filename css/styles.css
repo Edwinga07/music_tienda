@@ -319,6 +319,12 @@ h1{
     display: flex;
     flex-direction: column-reverse;
     }
+
+    .footer h3, 
+    .info h3, 
+    .blog h3{
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -326,10 +332,19 @@ h1{
        display: flex;
        flex-direction: column;
     }
-      
-    .gallery a,
-    .gallery img{
-        width: 100%;
-        height: 100%;
+    
+    .container-form{
+        width: 80%;/*puedo ajustar para el celular*/
     }
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;/*cambiar tamaño de iconos*/
+    align-items: center;
+}
+
+.social-media .fab{
+    font-size: 1.2em;
+    margin-top: .5em;
 }
