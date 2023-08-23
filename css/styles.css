@@ -169,9 +169,9 @@ h1{
 
 
 .carousel .carousel-item img{
-    width: 700px;
-    height: 500 px;
-    margin-top: -12em;  /*Subir imagenes desde la parte inferior*/
+    width: 500px;
+    height: 400 px;
+    margin-top: -8em;  /*Subir imagenes desde la parte inferior*/
 }
 
 .carousel .carousel-item h5{
@@ -275,5 +275,27 @@ h1{
 
     .absolute-title h3{
         font-size: 6rem;
+    }
+
+    .overlay-section .overlay h2{
+        font-size: 2.5rem;
+    }
+    
+    .carousel .carousel-item img{
+        width: 500px;
+        height: 400 px;
+    }
+
+    .container-form{
+        padding: 5em 3em;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-form textarea{
+        height: 15em;
+        color: #fff;
+        padding: 1em;
     }
 }
