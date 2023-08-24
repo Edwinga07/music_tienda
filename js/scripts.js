@@ -1,3 +1,6 @@
+//Scroll librery init
+AOS.init();
+
 // navbar init
 document.addEventListener('DOMContentLoaded', function(){
     var elems = document.querySelectorAll('.sidenav');
@@ -16,3 +19,4 @@ var options = {
     numVisible: 5,
     padding: 15
 }
+
