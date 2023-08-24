@@ -30,6 +30,11 @@ body{
     padding-top: 2em;
 }
 
+.material-icons{
+    color: #000;
+    margin-left: -.9em;
+}
+
 .container{
     margin: 0 auto;
     overflow: hidden;
