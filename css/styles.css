@@ -225,6 +225,10 @@ h1{
     width: 40%;
 }
 
+.container-form, input{
+    color: #fff;
+}
+
 .container-form textarea{
     height: 15em;
     color: #fff;
